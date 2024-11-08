@@ -1,0 +1,462 @@
+[
+  {
+    "label": "Striking Defense Techniques",
+    "moves": [
+      {
+        "name": "Close the gap",
+        "note": "to T-position, kick leg and pummel to clinch",
+        "youtube": "wNJb9NZHVSA"
+      },
+      {
+        "name": "Sucker Punch Defense",
+        "note": "Roundhouse punch close and lunging punch and straight punch",
+        "youtube": "zkckGH9tY5Y"
+      },
+      {
+        "name": "Front Kick Defense (to mid-section)",
+        "note": "Absorb, step back, catch, cup heel and lift",
+        "youtube": "5hDtFcnyYeo"
+      },
+      {
+        "name": "Low Kick Defense",
+        "note": "Shield and clinch",
+        "youtube": "irOdsJFdNGk"
+      },
+      {
+        "name": "Roundhouse (High) Kick Defense",
+        "note": "Block with hand on hip and cover head, go to foot lock",
+        "youtube": "1WZKjbtgt30"
+      }
+    ]
+  },
+  {
+    "label": "Standing Attacks",
+    "moves": [
+      {
+        "name": "T-Position Hip Throw",
+        "note": "",
+        "youtube": "3XdoMTbPGkc"
+      },
+      {
+        "name": "T-Position Leg Throw",
+        "note": "pull ankle with foot in circular motion, put your foot back on the floor",
+        "youtube": "Nx59p3b-rVU"
+      },
+      {
+        "name": "T-Position Throw From Behind",
+        "note": "sit, block far foot, and extend arm to help you climb on top",
+        "youtube": "a5qrg3MbEl4"
+      },
+      {
+        "name": "Guillotine Choke",
+        "note": "standing",
+        "youtube": "Lh7GULhS180"
+      },
+      {
+        "name": "Bajana",
+        "note": "double leg takedown - knee over toe and drive with head",
+        "youtube": "TODO"
+      }
+    ]
+  },
+  {
+    "label": "Standing Defenses",
+    "moves": [
+      {
+        "name": "Wrist Grab Escape (same side)",
+        "note": "pull between thumb and fingers",
+        "youtube": "9zMrRvJl8AM"
+      },
+      {
+        "name": "Wrist Grab Escape (two handed)",
+        "note": "grab own wrist and pull back",
+        "youtube": "H8_2GJAaOlY"
+      },
+      {
+        "name": "Single-Hand Lapel Grab Defense",
+        "note": "with thumb facing down (straight arm) waki gatame",
+        "youtube": "s4nyFGl_ux8"
+      },
+      {
+        "name": "Single-Hand Lapel Grab Defense (bent arm)",
+        "note": "low grab, step under to chicken wing",
+        "youtube": "SdInJ2evd1U"
+      },
+      {
+        "name": "Single-Hand Lapel Grab Defense (palm turned up)",
+        "note": " high lapel grab, wrist lock with leg trip",
+        "youtube": "JBk6mHwDIZE"
+      },
+      {
+        "name": "Two-Handed Lapel Grab Defense (with hip throw)",
+        "note": "high grab to head and arm hip throw",
+        "youtube": "9QA0L4aOOKk"
+      },
+      {
+        "name": "Two-Handed Front Choke Defense",
+        "note": "support elbows, duck under and step back",
+        "youtube": "70l_wIaC7D4"
+      },
+      {
+        "name": "Guillotine Defense (sitting back)",
+        "note": "both hands on one knee and sit and bridge",
+        "youtube": "k5BNGdsb5P4"
+      },
+      {
+        "name": "Guillotine Defense (with trip takedown)",
+        "note": "arm over shoulder, weight down and buckle the knee",
+        "youtube": "NAQiiqd_vu4"
+      },
+      {
+        "name": "Rear Choke Defense (throw)",
+        "note": "walk backwards and throw over shoulder",
+        "youtube": "0ysRO0VS33I"
+      },
+      {
+        "name": "Rear Choke Defense Pulled Back (with side throw)",
+        "note": "elbow tight to chest, reap leg and bow",
+        "youtube": "dTIDRA-0YY0"
+      },
+      {
+        "name": "Club Defense (overhead close range)",
+        "note": "catch wrist with hand and grab under arm",
+        "youtube": "-6r_aNljO30"
+      },
+      {
+        "name": "Standing Hair/Ear Grab Defense",
+        "note": "both hands grab wrist, pull and turn",
+        "youtube": "OhPVEQP8jsg"
+      }
+    ]
+  },
+  {
+    "label": "Wall Defenses",
+    "moves": [
+      {
+        "name": "Rear Bear Hug Defense (over the arms)",
+        "note": "be sure to have hips engaged",
+        "youtube": "R1uq23u464A"
+      },
+      {
+        "name": "Rear Bear Hug Defense (under the arms with lift)",
+        "note": "hook outside leg with foot",
+        "youtube": "6JbM5wUOTRI"
+      },
+      {
+        "name": "Front Bear Hug Defense (over the arms)",
+        "note": "hands on hips, knees to T-position, hip throw",
+        "youtube": "iGtS8Im-1k8"
+      },
+      {
+        "name": "Front Bear Hug Defense (under the arms with frame)",
+        "note": "frame face drop back",
+        "youtube": "5uFxsir7z0k"
+      },
+      {
+        "name": "Single Hand Front Choke Defense (against wall)",
+        "note": "strike wrist, turn, elbow to head",
+        "youtube": "DFNbQsnY5G8"
+      }
+    ]
+  },
+  {
+    "label": "Headlock Defenses",
+    "moves": [
+      {
+        "name": "Headlock Defense (attacker upright)",
+        "note": "cup chin, look up, squat and lift leg",
+        "youtube": "knmZ0Tq79Qc"
+      },
+      {
+        "name": "Headlock Defense (with punch)",
+        "note": "grab wrist and elbow, hips in, go under arm to bent arm lock",
+        "youtube": "fuPmbVatB9Q"
+      }
+    ]
+  },
+  {
+    "label": "Side Control Defenses",
+    "moves": [
+      {
+        "name": "Regain Guard From Cross Body (both arms across)",
+        "note": "insert knee, pinch legs, and recover guard",
+        "youtube": "08fHLrtT8w4"
+      },
+      {
+        "name": "Cross Body Defense (turn to knees)",
+        "note": "thread the needle",
+        "youtube": "sCKqdXCjX2o"
+      },
+      {
+        "name": "1 Side Headlock Defense",
+        "note": "make a frame - leg over head, triangle legs or go to knees",
+        "youtube": "OLy6fdy8MOs"
+      },
+      {
+        "name": "2 Side Headlock Defense",
+        "note": "opponent's head low - bridge and roll in one movement",
+        "youtube": "VCuojTQXIpw"
+      },
+      {
+        "name": "3 Side Headlock Defense",
+        "note": "hips under - bridge to get their hips up, pull them over your hips",
+        "youtube": "0dZ--roWNVQ"
+      },
+      {
+        "name": "4 Side Headlock Defense",
+        "note": "go to back-make them drive and lift knee, hook leg, and go to back",
+        "youtube": "JnD1ccNwXg4"
+      },
+      {
+        "name": "5 Side Headlock Defense",
+        "note": "go to knees - feet are close, grab shoulder over head and pull back",
+        "youtube": "UH17Mp_EuY0"
+      }
+    ]
+  },
+  {
+    "label": "Cross Body - Side Control Attacks",
+    "moves": [
+      {
+        "name": "Establish Cross Body Position",
+        "note": "",
+        "youtube": "C6yPRRBzanA"
+      },
+      {
+        "name": "Maintain Cross Body Position",
+        "note": "",
+        "youtube": "W6fxQwk5KAY"
+      },
+      {
+        "name": "American Arm Lock",
+        "note": "(americana) paintbrush, key lock",
+        "youtube": "4TW_fsFq8wA"
+      },
+      {
+        "name": "Cross Body Kimura",
+        "note": "figure four grip, step over head with leg, and arm bent 90 degrees",
+        "youtube": "aUvuZJZmTnQ"
+      },
+      {
+        "name": "Cross Body Neck Crank",
+        "note": "step over with leg and drive hips",
+        "youtube": "pS-Ol9ChYF4"
+      },
+      {
+        "name": "Straight Armlock From Cross Body",
+        "note": "grab far lapel and drive them over",
+        "youtube": "I8f9wkX7n4Y"
+      }
+    ]
+  },
+  {
+    "label": "Mount-Getting to Mount from Cross Body",
+    "moves": [
+      {
+        "name": "Basic Mount From Cross Body (arm out)",
+        "note": "knee across, drive femur with knee",
+        "youtube": "Vt7U-tOz3Ew"
+      },
+      {
+        "name": "Basic Mount From Cross Body (arm in)",
+        "note": "pull elbow up, heel on knee, hip in, head to floor",
+        "youtube": "nrHWLLM5tK4"
+      }
+    ]
+  },
+  {
+    "label": "Mount Defenses",
+    "moves": [
+      {
+        "name": "Mount Prevention From Cross Body",
+        "note": "move away, opposite foot on knee",
+        "youtube": "Vt7U-tOz3Ew"
+      },
+      {
+        "name": "Mounted Punch Attack Defense",
+        "note": "upa and wrap arm to bridge",
+        "youtube": "ZCfJjR-r9oM"
+      },
+      {
+        "name": "Upa with Choke Defense",
+        "note": "pull lapel down and keep turned",
+        "youtube": "4f0fng5jGos"
+      },
+      {
+        "name": "Elbow Escape",
+        "note": "recover guard",
+        "youtube": "5Y1CahWUA_s"
+      }
+    ]
+  },
+  {
+    "label": "Mount Attacks",
+    "moves": [
+      {
+        "name": "Maintain the Mount",
+        "note": "swimming through arms",
+        "youtube": "_jeIL_n2UcY"
+      },
+      {
+        "name": "Maintain the Mount",
+        "note": "pulling hands off knees",
+        "youtube": "14JjGjiHkoM"
+      },
+      {
+        "name": "Maintain the Mount",
+        "note": "pushing head",
+        "youtube": "GpCDHRKcKlw"
+      },
+      {
+        "name": "Basic Cross Choke",
+        "note": "palms up, keep head off center",
+        "youtube": "HY2Sk8swBW0"
+      },
+      {
+        "name": "Bent Arm Lock",
+        "note": "(americana) paint brush",
+        "youtube": "ikq_q_IzCLk"
+      },
+      {
+        "name": "Straight Arm Lock",
+        "note": "push off center of chest with both hands, spin and go to arm lock",
+        "youtube": "o8jgjHEwcCA"
+      }
+    ]
+  },
+  {
+    "label": "Back Defense",
+    "moves": [
+      {
+        "name": "Back Mount Escape",
+        "note": "back to floor, elbow to floor, grab knee and drive",
+        "youtube": "nlWELCgcZVo"
+      },
+      {
+        "name": "Rear Choke Escape",
+        "note": "finger point, back on floor, grab knee and drive",
+        "youtube": "6auEjfnFYfw"
+      }
+    ]
+  },
+  {
+    "label": "Back Attacks",
+    "moves": [
+      {
+        "name": "Maintain Back Mount",
+        "note": "lapel grip under arms and seatbelt",
+        "youtube": "Rlk4mGg7vW4"
+      },
+      {
+        "name": "Collar Choke",
+        "note": "sliding lapel choke, pull one lapel to hip and one across neck",
+        "youtube": "y8SsAnwtxLI"
+      },
+      {
+        "name": "Mata Leao (rear naked choke)",
+        "note": "wrist to shoulder and bring elbows toward each other",
+        "youtube": "6auEjfnFYfw"
+      }
+    ]
+  },
+  {
+    "label": "Guard Defenses",
+    "moves": [
+      {
+        "name": "Posture",
+        "note": "driving hips to ground, one arm posting and one on hips",
+        "youtube": "2N4neNhALUU"
+      },
+      {
+        "name": "Choke Protection From Guard",
+        "note": "grab over arms, fist in armpit",
+        "youtube": "mhKWsCdH8Vg"
+      },
+      {
+        "name": "Choke Defense",
+        "note": "comb the hair and duck under",
+        "youtube": "7vtWhCAfKTw"
+      },
+      {
+        "name": "Choke Defense",
+        "note": "squeeze the bread with and without lapel",
+        "youtube": "2_lXwrT3Ci0"
+      },
+      {
+        "name": "Guillotine Choke Defense",
+        "note": "arm over shoulder and fall to side",
+        "youtube": "1k_IT9_eUy8"
+      },
+      {
+        "name": "Arm Bar Protection",
+        "note": "connect elbow to knees and catch back of leg",
+        "youtube": "hBmoVoAlXnY"
+      }
+    ]
+  },
+  {
+    "label": "Attacks",
+    "moves": [
+      {
+        "name": "Cross Choke",
+        "note": "raise hips off floor",
+        "youtube": "HY2Sk8swBW0"
+      },
+      {
+        "name": "Straight Arm Lock",
+        "note": "raise hips and calf on back of neck, keep toes pointed up",
+        "youtube": "I8f9wkX7n4Y"
+      },
+      {
+        "name": "Triangle Choke",
+        "note": "jump rope arm, triangle, toes up and pull head",
+        "youtube": "p23n2Vgoyys"
+      },
+      {
+        "name": "Kimura",
+        "note": "elbow to armpit, scoot away to isolate arms, cross feet over back",
+        "youtube": "KAxTmcxGc60"
+      },
+      {
+        "name": "Guillotine Choke",
+        "note": "wrist to shoulder, knee to mid-section to maintain distance, then pull into guard",
+        "youtube": "1k_IT9_eUy8"
+      }
+    ]
+  },
+  {
+    "label": "Breaks and Passes",
+    "moves": [
+      {
+        "name": "Pass The Guard (kneeling)",
+        "note": "stacking shoulder pass, keep elbows inside",
+        "youtube": "fjhCbG9z9Ks"
+      },
+      {
+        "name": "Pass The Guard (standing)",
+        "note": "double lapel grab, drag under, pinch legs and pass",
+        "youtube": "jy0dIDIEEDw"
+      }
+    ]
+  },
+  {
+    "label": "Sweeps",
+    "moves": [
+      {
+        "name": "Scissor Sweep To Mount",
+        "note": "pistol gip sleeve, pull them to you to stretch them out",
+        "youtube": "IiT-kvqmHA0"
+      },
+      {
+        "name": "Hook Sweep",
+        "note": "from kneeling, pinch/bite support leg, keep knee on belly to prevent",
+        "youtube": "SFQLwY3PT3c"
+      },
+      {
+        "name": "Sit Up Sweep",
+        "note": "knee to ground, pinch with foot, toes pointed, sweep as they sit back",
+        "youtube": "zir9wbz8X_4"
+      }
+    ]
+  }
+]
