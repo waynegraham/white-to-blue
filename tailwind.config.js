@@ -6,7 +6,12 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        print: { raw: 'print'},
+        screen: { raw: 'screen' },
+      }
+    },
   },
   plugins: [],
 }

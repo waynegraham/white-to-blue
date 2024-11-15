@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Footer from "./components/Footer";
-import Toggle from "./components/Toggle";
+import Navigation from "./components/Navigation";
 import movesData from "./data/moves.json"
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    {/* <Toggle/> */}
+    <Navigation /> {/* Navigation component */}
     <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-2">
     <h1
         className="inline-block font-extrabold bg-gradient-to-r from-zinc-100 to-blue-700 bg-clip-text text-7xl text-transparent"
@@ -44,7 +44,7 @@ function App() {
                 <a
                   href="#"
                   onClick={() => openModal(m.youtube, m.name)} // Open modal on click
-                  className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   {m.name}
                 </a>
