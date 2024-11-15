@@ -12,7 +12,7 @@ function Navigation() {
           <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Blue to Purple</span>
         </a>
 
-        <a href="#" className="flex">
+        <a href="https://waynegraham.github.io/purple-to-brown/" className="flex">
           <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Purple to Brown</span>
         </a>
 
