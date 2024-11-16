@@ -13,6 +13,7 @@ function App() {
 
   const openModal = (videoId, title) => {
     setSelectedVideoId(videoId);
+    setModalTitle(title); // Set modal title
     setIsModalOpen(true);
   }
 
@@ -30,11 +31,12 @@ function App() {
       >
         White to Blue
       </h1>
-      <h2 className="mt-3 mb-8 text-slate-600 dark:text-slate-300 text-2xl font-semibold tracking-tighter">
-        Curriculum Techniques
+    
+
+      <h2 className="inline-block mt-5 mb-8 text-blue-600 dark:text-blue-300 text-2xl font-semibold tracking-tighter">
+        Blue Belt Demonstration
       </h2>
 
-      <h1 className="text-xl text-blue-800 dark:text-blue-300 font-semibold">Test Requirements</h1>
       {movesData.map((move) => ( // Map through moves data
         <div key={move.label}>
           <h2 className="my-3 text-xl text-gray-900 dark:text-gray-300">{move.label}</h2>
@@ -44,7 +46,7 @@ function App() {
                 <a
                   href="#"
                   onClick={() => openModal(m.youtube, m.name)} // Open modal on click
-                  className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
+                  className="font-medium text-blue-600 dark:text-blue-400 hover:underline dark:hover:text-blue-200"
                 >
                   {m.name}
                 </a>

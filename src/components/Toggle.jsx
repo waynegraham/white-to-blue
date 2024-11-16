@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { IoMoon } from "react-icons/io5";
 import { IoSunny } from "react-icons/io5";
-import { IconContext } from "react-icons";
+// import { IconContext } from "react-icons";
 
 function Toggle() {
 
