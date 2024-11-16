@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <Flowbite>
       <Navbar fluid rounded>
-        {/* <Navbar.Brand href="https://waynegraham.github.io/blue-to-purple">
+        {/* <Navbar.Brand href="https://waynegraham.github.io/white-to-blue">
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             BJJ Study Guide
           </span>
@@ -14,7 +14,7 @@ function Navigation() {
           <Navbar.Toggle />
           <DarkThemeToggle />
         </div>
-
+        
         <Navbar.Collapse>
           <Navbar.Link
             className="hover:underline md:hover:text-blue-900 md:text-blue-700 underline bg-blue-800 dark:md:hover:text-blue-200"

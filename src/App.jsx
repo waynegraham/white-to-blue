@@ -23,7 +23,8 @@ function App() {
   }
 
   return (
-    <>
+    <section className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+
     <Navigation /> {/* Navigation component */}
     <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-2">
     <h1
@@ -80,7 +81,7 @@ function App() {
       )}
       </main>
       <Footer />
-    </>
+    </section>
   )
 }
 
