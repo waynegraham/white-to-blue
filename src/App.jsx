@@ -45,7 +45,6 @@ function App() {
             {move.moves.map((m) => ( // Map through each move
               <li key={m.name}>
                 <a
-                  href="#"
                   onClick={() => openModal(m.youtube, m.name)} // Open modal on click
                   className="font-medium text-blue-600 dark:text-blue-400 hover:underline dark:hover:text-blue-200"
                 >
