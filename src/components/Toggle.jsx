@@ -13,7 +13,7 @@ function Toggle() {
     }
 
     return (
-        <div className="bg-yellow-">
+        <div className="bg-yellow-500">
             <button onClick={()=> darkModeHandler()}>
                 {
                     

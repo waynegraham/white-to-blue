@@ -1,8 +1,41 @@
-# React + Vite
+# White to Blue Curriculum Review
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a simple reference for Pedro Sauer's white to blue belt techniques. It is built with **React** and **Vite** and displays the curriculum along with embedded YouTube videos.
 
-Currently, two official plugins are available:
+## Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+Open <http://localhost:5173/white-to-blue> in your browser.
+
+## Building
+
+To create a production build run:
+
+```bash
+npm run build
+```
+
+Static files will be generated in the `dist` directory.
+
+## Linting
+
+Run ESLint to check the codebase:
+
+```bash
+npm run lint
+```
+
+## Testing
+
+This project uses [Vitest](https://vitest.dev/) and React Testing Library. Execute the tests with:
+
+```bash
+npm test
+```
+
