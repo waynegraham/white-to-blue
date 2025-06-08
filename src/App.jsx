@@ -27,12 +27,9 @@ function App() {
 
     <Navigation /> {/* Navigation component */}
     <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-2">
-    <h1
-        className="inline-block font-extrabold bg-gradient-to-r from-zinc-100 to-blue-700 bg-clip-text text-7xl text-transparent"
-      >
-        White to Blue
-      </h1>
-    
+    <h1 className="inline-block font-extrabold bg-gradient-to-r from-zinc-100 to-blue-700 bg-clip-text text-7xl text-transparent print:bg-none print:text-5xl print:text-black print:bg-clip-border">
+      White to Blue
+    </h1>
 
       <h2 className="inline-block mt-5 mb-8 text-blue-600 dark:text-blue-300 text-2xl font-semibold tracking-tighter">
         Blue Belt Demonstration
@@ -40,7 +37,7 @@ function App() {
 
       {movesData.map((move) => ( // Map through moves data
         <div key={move.label}>
-          <h2 className="my-3 text-xl text-gray-900 dark:text-gray-300">{move.label}</h2>
+          <h2 className="my-3 text-xl print:my-0 text-gray-900 dark:text-gray-300">{move.label}</h2>
           <ul className='list-disc ps-5 mt-2 space-y-1 dark:text-gray-300'>
             {move.moves.map((m) => ( // Map through each move
               <li key={m.name}>

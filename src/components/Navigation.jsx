@@ -3,6 +3,7 @@ import { Navbar, DarkThemeToggle, Flowbite } from "flowbite-react";
 
 function Navigation() {
   return (
+    <div className="print:hidden">
     <Flowbite>
       <Navbar fluid rounded>
         {/* <Navbar.Brand href="https://waynegraham.github.io/white-to-blue">
@@ -10,14 +11,13 @@ function Navigation() {
             BJJ Study Guide
           </span>
         </Navbar.Brand> */}
-        <div className="flex md:order-2">
+        <div className="flex md:order-2 ">
           <Navbar.Toggle />
           <DarkThemeToggle />
         </div>
-        
         <Navbar.Collapse>
           <Navbar.Link
-            className="hover:underline md:hover:text-blue-900 md:text-blue-700 underline bg-blue-800 dark:md:hover:text-blue-200"
+            className="hover:underline print:bg-none print:text-black print:bg-clip-border md:hover:text-blue-900 md:text-blue-700 underline bg-blue-800 dark:md:hover:text-blue-200"
             href="https://waynegraham.github.io/white-to-blue"
             active
           >
@@ -38,6 +38,7 @@ function Navigation() {
         </Navbar.Collapse>
       </Navbar>
     </Flowbite>
+    </div>
   );
 }
 // function Navigation() {
