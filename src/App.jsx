@@ -35,6 +35,10 @@ function App() {
         Blue Belt Demonstration
       </h2>
 
+      <p>
+        <a target="_blank" className="print:hidden text-purple-600 dark:text-purple-300 underline" href="https://waynegraham.github.io/bjj-study-guide/gracie-jiu-jitsu_compress.pdf">Reference</a>
+      </p>
+
       {movesData.map((move) => ( // Map through moves data
         <div key={move.label}>
           <h2 className="my-3 text-xl print:my-0 text-gray-900 dark:text-gray-300">{move.label}</h2>
