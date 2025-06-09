@@ -10,6 +10,7 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedVideoId, setSelectedVideoId] = useState('')
   const [modalTitle, setModalTitle] = useState(''); // State for modal title
+  const [searchTerm, setSearchTerm] = useState('');
 
 
   const openModal = (videoId, title) => {
@@ -37,6 +38,15 @@ function App() {
     };
   }, [isModalOpen]);
 
+  const filteredMoves = movesData
+    .map((category) => ({
+      ...category,
+      moves: category.moves.filter((m) =>
+        `${m.name} ${m.note}`.toLowerCase().includes(searchTerm.toLowerCase())
+      ),
+    }))
+    .filter((category) => category.moves.length > 0 || searchTerm === '');
+
   return (
     <section className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
 
@@ -54,7 +64,15 @@ function App() {
         <a target="_blank" className="print:hidden text-purple-600 dark:text-purple-300 underline" href="https://waynegraham.github.io/bjj-study-guide/gracie-jiu-jitsu_compress.pdf">Reference</a>
       </p>
 
-      {movesData.map((move) => ( // Map through moves data
+      <input
+        aria-label="search"
+        type="text"
+        placeholder="Search"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="mt-4 mb-6 w-full rounded border p-2 text-black"
+      />
+      {filteredMoves.map((move) => ( // Map through moves data
         <div key={move.label}>
           <h2 className="my-3 text-xl print:my-0 text-gray-900 dark:text-gray-300">{move.label}</h2>
           <ul className='list-disc ps-5 mt-2 space-y-1 dark:text-gray-300'>

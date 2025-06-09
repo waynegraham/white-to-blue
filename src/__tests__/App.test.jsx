@@ -13,3 +13,11 @@ test('opens modal when clicking a move', () => {
   fireEvent.click(link);
   expect(screen.getByText('Close')).toBeInTheDocument();
 });
+
+test('filters moves when searching', () => {
+  render(<App />);
+  const input = screen.getByLabelText('search');
+  fireEvent.change(input, { target: { value: 'Sucker' } });
+  expect(screen.getByText('Sucker Punch Defense')).toBeInTheDocument();
+  expect(screen.queryByText('Close the gap')).not.toBeInTheDocument();
+});
