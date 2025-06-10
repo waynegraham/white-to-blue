@@ -53,11 +53,11 @@ function App() {
     <Navigation /> {/* Navigation component */}
     <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-2">
     <h1 className="inline-block font-extrabold bg-gradient-to-r from-zinc-100 to-blue-700 bg-clip-text text-7xl text-transparent print:bg-none print:text-5xl print:text-black print:bg-clip-border">
-      White to Blue
+      White to Blue <span className='text-xl'>Curriculum Techniques</span>
     </h1>
 
       <h2 className="inline-block mt-5 mb-8 text-blue-600 dark:text-blue-300 text-2xl font-semibold tracking-tighter">
-        Blue Belt Demonstration
+        Blue Belt Test Requirements
       </h2>
 
       <p>
@@ -70,7 +70,7 @@ function App() {
         placeholder="Search"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="mt-4 mb-6 w-full rounded border p-2 text-black"
+        className="mt-4 mb-6 w-full rounded border p-2 text-black print:hidden"
       />
       {filteredMoves.map((move) => ( // Map through moves data
         <div key={move.label}>
@@ -84,7 +84,7 @@ function App() {
                 >
                   {m.name}
                 </a>
-                <span className="ml-2 dark:text-gray-300">- {m.note}</span>
+                <span className="ml-1 dark:text-gray-300">- {m.note}</span>
               </li>
             ))}
           </ul>
