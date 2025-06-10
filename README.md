@@ -2,6 +2,12 @@
 
 This project provides a simple reference for Pedro Sauer's white to blue belt techniques. It is built with **React** and **Vite** and displays the curriculum along with embedded YouTube videos.
 
+## Features
+
+- Search techniques by name or note.
+- Click a technique to open its video in a modal starting at the demonstration timestamp.
+- Close the video modal by clicking the Close button or pressing **Escape**.
+
 ## Development
 
 Install dependencies and start the development server:
@@ -38,4 +44,3 @@ This project uses [Vitest](https://vitest.dev/) and React Testing Library. Execu
 ```bash
 npm test
 ```
-
