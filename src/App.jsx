@@ -56,6 +56,15 @@ function App({ onNavigate }) {
     window.location.assign('/test-mode')
   }
 
+  const goToGuide = () => {
+    if (typeof onNavigate === 'function') {
+      onNavigate('/test-preparation-guide')
+      return
+    }
+
+    window.location.assign('/test-preparation-guide')
+  }
+
   return (
     <section className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
 
@@ -76,6 +85,13 @@ function App({ onNavigate }) {
             type="button"
           >
             Test Mode
+          </button>
+          <button
+            onClick={goToGuide}
+            className="inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-blue-800 shadow-lg shadow-blue-200/60 transition hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-100 dark:shadow-blue-900/40 dark:hover:bg-blue-800"
+            type="button"
+          >
+            Test Preparation Guide
           </button>
         </div>
 

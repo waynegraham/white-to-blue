@@ -21,3 +21,23 @@ test('filters moves when searching', () => {
   expect(screen.getByText('Sucker Punch Defense')).toBeInTheDocument();
   expect(screen.queryByText('Close the gap')).not.toBeInTheDocument();
 });
+
+test('navigates to test mode when clicking the Test Mode button', () => {
+  const onNavigate = vi.fn();
+  render(<App onNavigate={onNavigate} />);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Test Mode' }));
+
+  expect(onNavigate).toHaveBeenCalledTimes(1);
+  expect(onNavigate).toHaveBeenCalledWith('/test-mode');
+});
+
+test('navigates to guide when clicking the Test Preparation Guide button', () => {
+  const onNavigate = vi.fn();
+  render(<App onNavigate={onNavigate} />);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Test Preparation Guide' }));
+
+  expect(onNavigate).toHaveBeenCalledTimes(1);
+  expect(onNavigate).toHaveBeenCalledWith('/test-preparation-guide');
+});

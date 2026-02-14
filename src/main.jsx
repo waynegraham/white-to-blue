@@ -2,10 +2,11 @@ import { useCallback, useEffect, useState, StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import TestPreparationGuide from './TestPreparationGuide.jsx'
 import { ReusableTestMode } from './components/test-mode'
 import movesData from './data/moves.json'
 
-function RouterApp() {
+export function RouterApp() {
   const [pathname, setPathname] = useState(window.location.pathname)
 
   useEffect(() => {
@@ -32,6 +33,10 @@ function RouterApp() {
 
   if (pathname === '/test-mode') {
     return <ReusableTestMode moveSections={movesData} onExit={() => navigate('/')} />
+  }
+
+  if (pathname === '/test-preparation-guide') {
+    return <TestPreparationGuide onNavigate={navigate} />
   }
 
   return <App onNavigate={navigate} />
