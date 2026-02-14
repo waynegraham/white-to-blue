@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation";
 import movesData from "./data/moves.json"
 import { useEffect } from 'react';
 
-function App() {
+function App({ onNavigate }) {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedVideoId, setSelectedVideoId] = useState('')
@@ -47,6 +47,15 @@ function App() {
     }))
     .filter((category) => category.moves.length > 0 || searchTerm === '');
 
+  const goToTestMode = () => {
+    if (typeof onNavigate === 'function') {
+      onNavigate('/test-mode')
+      return
+    }
+
+    window.location.assign('/test-mode')
+  }
+
   return (
     <section className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
 
@@ -59,6 +68,16 @@ function App() {
       <h2 className="inline-block mt-5 mb-8 text-blue-600 dark:text-blue-300 text-2xl font-semibold tracking-tighter">
         Blue Belt Test Requirements
       </h2>
+
+      <div className="mb-6 flex flex-wrap items-center gap-3">
+          <button
+            onClick={goToTestMode}
+            className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2 text-white shadow-lg shadow-purple-700/30 transition hover:bg-purple-600"
+            type="button"
+          >
+            Test Mode
+          </button>
+        </div>
 
       <p>
         <a target="_blank" className="print:hidden text-purple-600 dark:text-purple-300 underline" href="https://waynegraham.github.io/bjj-study-guide/gracie-jiu-jitsu_compress.pdf">Reference</a>
