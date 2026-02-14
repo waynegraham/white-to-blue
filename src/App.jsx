@@ -72,7 +72,7 @@ function App({ onNavigate }) {
       <div className="mb-6 flex flex-wrap items-center gap-3">
           <button
             onClick={goToTestMode}
-            className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2 text-white shadow-lg shadow-purple-700/30 transition hover:bg-purple-600"
+            className="inline-flex items-center gap-2 rounded-full bg-blue-700 px-5 py-2 text-white shadow-lg shadow-blue-700/30 transition hover:bg-blue-600"
             type="button"
           >
             Test Mode

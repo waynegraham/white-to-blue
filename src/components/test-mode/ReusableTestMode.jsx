@@ -17,32 +17,32 @@ const styles = {
   baseScreen: "fixed inset-0 flex flex-col text-white",
   emptyScreen: "items-center justify-center bg-slate-950",
   completionScreen:
-    "items-center justify-center bg-gradient-to-br from-slate-950 via-purple-950 to-slate-900",
+    "items-center justify-center bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900",
   activeScreen: "bg-slate-950",
   topBar: "flex items-center justify-between px-6 py-6",
-  badge: "text-xs uppercase tracking-[0.35em] text-purple-200",
+  badge: "text-xs uppercase tracking-[0.35em] text-blue-200",
   actionGroup: "flex items-center gap-3",
   buttonGhost:
     "rounded-full border border-white/30 px-4 py-2 text-sm text-white transition hover:bg-white/10",
   buttonGhostLarge:
     "rounded-full border border-white/30 px-5 py-2 text-white transition hover:bg-white/10",
   buttonPrimary:
-    "rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-purple-100",
+    "rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-blue-100",
   buttonBorder:
     "rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10",
   buttonVideo:
-    "rounded-full bg-purple-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-purple-400",
+    "rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-400",
   floatingExit: "absolute right-6 top-6",
   floatingControls: "absolute left-6 top-6 flex items-center gap-3",
   completionWrap: "max-w-3xl px-6 text-center",
-  completionLabel: "text-sm uppercase tracking-[0.3em] text-purple-200",
+  completionLabel: "text-sm uppercase tracking-[0.3em] text-blue-200",
   completionTitle: "mt-6 text-4xl font-bold md:text-6xl",
-  completionSubtitle: "mt-6 text-lg text-purple-100 md:text-2xl",
+  completionSubtitle: "mt-6 text-lg text-blue-100 md:text-2xl",
   completionButtons:
     "mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center",
   mainContent: "flex flex-1 items-center justify-center px-6",
   contentWrap: "w-full max-w-4xl",
-  sectionLabel: "text-sm uppercase tracking-[0.3em] text-purple-300",
+  sectionLabel: "text-sm uppercase tracking-[0.3em] text-blue-300",
   moveTitle: "mt-6 text-4xl font-bold md:text-6xl",
   moveDescription: "mt-6 text-lg text-slate-200 md:text-2xl",
   moveActions: "mt-10 flex flex-wrap items-center gap-4",
